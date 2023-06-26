@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.arjuncodes.studentsystem.StudentsystemApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.376 s <<< FAILURE! - in com.arjuncodes.studentsystem.StudentsystemApplicationTests
+com.arjuncodes.studentsystem.StudentsystemApplicationTests  Time elapsed: 0.374 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Users\uUser\Desktop\Diabetic_Retinopathy_Ensemble\FullStackApp-master\FullStackApp-master\target\test-classes\com\arjuncodes\studentsystem\StudentsystemApplicationTests.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\uUser\Desktop\Diabetic_Retinopathy_Ensemble\FullStackApp-master\FullStackApp-master\target\test-classes\com\arjuncodes\studentsystem\StudentsystemApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 64
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\uUser\Desktop\Diabetic_Retinopathy_Ensemble\FullStackApp-master\FullStackApp-master\target\test-classes\com\arjuncodes\studentsystem\StudentsystemApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 64
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 64
+
